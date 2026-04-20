@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ══════════════════════════════════════════
+       LearnSpark Student App — index.html
+       Shell only. Content injected by main.js
+       from content.json.
+  ══════════════════════════════════════════ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0f0c29" />
+  <meta name="description" content="LearnSpark – Your Smart Student Learning App" />
+  <title>LearnSpark – Student Learning App</title>
+
+  <!-- ── Google Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ── Tailwind CSS (CDN) ── -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ── AOS – Animate on Scroll ── -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- ── Lightbox2 ── -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+
+  <!-- ── Font Awesome 6 ── -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- ── Custom Stylesheet ── -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════
+       PAGE LOADER
+       Shown while content.json is fetched
+  ════════════════════════════════════════ -->
+  <div id="page-loader">
+    <div class="loader-logo">⚡ LearnSpark</div>
+    <div style="font-size:.78rem;color:#7a8fb5;font-weight:600;margin-bottom:8px">Loading your dashboard…</div>
+    <div class="loader-dots">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════
+       APP SHELL
+       All content is injected by main.js
+  ════════════════════════════════════════ -->
+  <div id="app-shell">
+
+    <!-- ── TOP HEADER ──
+         Built by buildHeader() in main.js
+    ── -->
+    <header id="top-header" role="banner" aria-label="App header"></header>
+
+    <!-- ── MAIN CONTENT AREA ──
+         Screens: home | learn | records | profile
+         Each screen div is created and filled by main.js
+    ── -->
+    <main id="screen-content" role="main" aria-label="Screen content">
+      <!-- Populated dynamically by buildAllScreens() -->
+    </main>
+
+    <!-- ── BOTTOM NAVIGATION ──
+         Built by buildBottomNav() in main.js
+    ── -->
+    <nav id="bottom-nav" role="navigation" aria-label="Main navigation">
+      <!-- Populated dynamically by buildBottomNav() -->
+    </nav>
+
+  </div><!-- /#app-shell -->
+
+
+  <!-- ════════════════════════════════════════
+       SCRIPTS (order matters)
+       1. jQuery      — required by Lightbox2
+       2. AOS
+       3. Lightbox2
+       4. main.js     — our app logic (fetches JSON, builds DOM)
+  ════════════════════════════════════════ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+  <!-- Initialize AOS after scripts load -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      AOS.init({
+        duration: 550,
+        once: true,
+        easing: 'ease-out-cubic',
+        offset: 30,
+      });
+    });
+  </script>
+
+  <!-- App entry point -->
+  <script src="main.js"></script>
+
+</body>
+</html>

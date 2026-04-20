@@ -1,0 +1,268 @@
+{
+  "app": {
+    "name": "LearnSpark",
+    "tagline": "Your Smart Study Companion",
+    "version": "2.0"
+  },
+
+  "student": {
+    "name": "Arjun Sharma",
+    "grade": "Class 10 – Section A",
+    "rollNo": "2024-10-042",
+    "school": "Delhi Public School, Hyderabad",
+    "avatar": "assets/images/avatar.png",
+    "avatar_initials": "AS",
+    "streak": 12,
+    "xp": 3840,
+    "rank": "Gold Scholar",
+    "joined": "June 2023",
+    "phone": "+91 98765 43210",
+    "email": "arjun.sharma@student.dps.edu",
+    "dob": "15 March 2009",
+    "hobbies": ["Cricket", "Coding", "Reading"],
+    "badges": [
+      { "icon": "fa-fire",       "label": "12-Day Streak",  "color": "orange" },
+      { "icon": "fa-star",       "label": "Top Scorer",     "color": "yellow" },
+      { "icon": "fa-brain",      "label": "Quick Learner",  "color": "purple" },
+      { "icon": "fa-medal",      "label": "Consistent",     "color": "teal"   }
+    ]
+  },
+
+  "navigation": {
+    "tabs": [
+      { "id": "home",    "icon": "fa-house",      "label": "Home"    },
+      { "id": "learn",   "icon": "fa-play-circle", "label": "Learn"   },
+      { "id": "records", "icon": "fa-chart-bar",   "label": "Records" },
+      { "id": "profile", "icon": "fa-user",        "label": "Profile" }
+    ]
+  },
+
+  "home": {
+    "greeting_prefix": "Good Morning",
+    "greeting_suffix": "! 👋",
+    "subtitle": "Ready to level up today?",
+    "quick_stats": [
+      { "icon": "fa-fire",        "value": "12",   "label": "Day Streak",    "color": "orange" },
+      { "icon": "fa-bolt",        "value": "3840", "label": "XP Points",     "color": "yellow" },
+      { "icon": "fa-trophy",      "value": "#4",   "label": "Class Rank",    "color": "green"  },
+      { "icon": "fa-clock",       "value": "2.4h", "label": "Today's Study", "color": "blue"   }
+    ],
+    "subjects": [
+      {
+        "id": "math",
+        "name": "Mathematics",
+        "icon": "fa-square-root-variable",
+        "emoji": "📐",
+        "gradient": "from-blue-500 to-cyan-400",
+        "progress": 72,
+        "chapter": "Quadratic Equations",
+        "total_chapters": 15,
+        "done_chapters": 10,
+        "color": "blue",
+        "actions": [
+          { "icon": "fa-file-alt",    "label": "Mock Test"        },
+          { "icon": "fa-book-open",   "label": "Prev Papers"      },
+          { "icon": "fa-question-circle", "label": "Question Bank" },
+          { "icon": "fa-folder",      "label": "Study Material"   }
+        ]
+      },
+      {
+        "id": "science",
+        "name": "Science",
+        "icon": "fa-flask",
+        "emoji": "🔬",
+        "gradient": "from-emerald-500 to-teal-400",
+        "progress": 60,
+        "chapter": "Chemical Reactions",
+        "total_chapters": 15,
+        "done_chapters": 9,
+        "color": "emerald",
+        "actions": [
+          { "icon": "fa-file-alt",    "label": "Mock Test"        },
+          { "icon": "fa-book-open",   "label": "Prev Papers"      },
+          { "icon": "fa-question-circle", "label": "Question Bank" },
+          { "icon": "fa-folder",      "label": "Study Material"   }
+        ]
+      },
+      {
+        "id": "english",
+        "name": "English",
+        "icon": "fa-book",
+        "emoji": "📚",
+        "gradient": "from-purple-500 to-pink-400",
+        "progress": 85,
+        "chapter": "The Letter Writer",
+        "total_chapters": 12,
+        "done_chapters": 10,
+        "color": "purple",
+        "actions": [
+          { "icon": "fa-file-alt",    "label": "Mock Test"        },
+          { "icon": "fa-book-open",   "label": "Prev Papers"      },
+          { "icon": "fa-question-circle", "label": "Question Bank" },
+          { "icon": "fa-folder",      "label": "Study Material"   }
+        ]
+      },
+      {
+        "id": "social",
+        "name": "Social Studies",
+        "icon": "fa-globe",
+        "emoji": "🌍",
+        "gradient": "from-amber-500 to-orange-400",
+        "progress": 45,
+        "chapter": "The Rise of Nationalism",
+        "total_chapters": 14,
+        "done_chapters": 6,
+        "color": "amber",
+        "actions": [
+          { "icon": "fa-file-alt",    "label": "Mock Test"        },
+          { "icon": "fa-book-open",   "label": "Prev Papers"      },
+          { "icon": "fa-question-circle", "label": "Question Bank" },
+          { "icon": "fa-folder",      "label": "Study Material"   }
+        ]
+      },
+      {
+        "id": "hindi",
+        "name": "Hindi",
+        "icon": "fa-language",
+        "emoji": "🗣️",
+        "gradient": "from-rose-500 to-red-400",
+        "progress": 90,
+        "chapter": "Surdas ke Pad",
+        "total_chapters": 11,
+        "done_chapters": 10,
+        "color": "rose",
+        "actions": [
+          { "icon": "fa-file-alt",    "label": "Mock Test"        },
+          { "icon": "fa-book-open",   "label": "Prev Papers"      },
+          { "icon": "fa-question-circle", "label": "Question Bank" },
+          { "icon": "fa-folder",      "label": "Study Material"   }
+        ]
+      },
+      {
+        "id": "computer",
+        "name": "Computer Science",
+        "icon": "fa-laptop-code",
+        "emoji": "💻",
+        "gradient": "from-violet-500 to-indigo-400",
+        "progress": 55,
+        "chapter": "Python Programming",
+        "total_chapters": 10,
+        "done_chapters": 5,
+        "color": "violet",
+        "actions": [
+          { "icon": "fa-file-alt",    "label": "Mock Test"        },
+          { "icon": "fa-book-open",   "label": "Prev Papers"      },
+          { "icon": "fa-question-circle", "label": "Question Bank" },
+          { "icon": "fa-folder",      "label": "Study Material"   }
+        ]
+      }
+    ],
+    "today_schedule": [
+      { "time": "9:00 AM",  "subject": "Mathematics",    "topic": "Quadratic Equations", "icon": "fa-square-root-variable", "color": "blue",    "status": "done"    },
+      { "time": "11:00 AM", "subject": "Science",        "topic": "Chemical Reactions",  "icon": "fa-flask",                "color": "emerald", "status": "live"    },
+      { "time": "2:00 PM",  "subject": "English",        "topic": "The Letter Writer",   "icon": "fa-book",                 "color": "purple",  "status": "upcoming"},
+      { "time": "4:00 PM",  "subject": "Social Studies", "topic": "Rise of Nationalism", "icon": "fa-globe",                "color": "amber",   "status": "upcoming"}
+    ]
+  },
+
+  "learn": {
+    "current_subject": "Mathematics",
+    "current_chapter": "Quadratic Equations",
+    "current_topic": "Solving by Factorization",
+    "video": {
+      "title": "Quadratic Equations – Factorization Method",
+      "duration": "24:35",
+      "thumbnail": "assets/images/video-thumb.jpg",
+      "teacher": "Mr. Rajesh Kumar",
+      "teacher_avatar_initials": "RK"
+    },
+    "chapter_list": [
+      { "no": 1,  "title": "Introduction to Quadratic Equations",  "duration": "18:20", "done": true  },
+      { "no": 2,  "title": "Standard Form & Discriminant",          "duration": "22:10", "done": true  },
+      { "no": 3,  "title": "Factorization Method",                  "duration": "24:35", "done": false, "current": true },
+      { "no": 4,  "title": "Completing the Square",                 "duration": "19:45", "done": false },
+      { "no": 5,  "title": "Quadratic Formula",                     "duration": "28:00", "done": false }
+    ],
+    "ai_assistant": {
+      "name": "Spark AI",
+      "tagline": "Your 24/7 Study Buddy",
+      "avatar_icon": "fa-robot",
+      "welcome_message": "Hi Arjun! 👋 I'm Spark, your AI study assistant. I'm here to help you understand any concept instantly. What would you like to learn today?",
+      "quick_questions": [
+        "What is discriminant?",
+        "Explain factorization",
+        "Give me a practice problem",
+        "What are roots of equation?"
+      ],
+      "sample_responses": {
+        "What is discriminant?": "The **discriminant** (D = b² – 4ac) tells you about the nature of roots:\n\n• D > 0 → Two distinct real roots\n• D = 0 → Two equal roots\n• D < 0 → No real roots (complex roots)\n\nFor example, in x² – 5x + 6 = 0, D = 25 – 24 = 1 > 0, so it has two distinct roots! 🎯",
+        "Explain factorization": "**Factorization** means writing the quadratic as a product of two linear expressions!\n\nSteps:\n1. Find two numbers that multiply to give 'ac' and add to give 'b'\n2. Split the middle term\n3. Group and factor\n\nExample: x² – 5x + 6 = (x–2)(x–3), so x = 2 or x = 3 ✅",
+        "Give me a practice problem": "Here's a problem for you! 🎯\n\n**Solve:** 2x² – 7x + 3 = 0\n\nHint: Find two numbers that multiply to 2×3=6 and add to –7.\n\nThey are –6 and –1!\n\n2x² – 6x – x + 3 = 2x(x–3) – 1(x–3) = (2x–1)(x–3)\n\n∴ x = ½ or x = 3 🏆",
+        "What are roots of equation?": "**Roots** (or solutions) are the values of x that satisfy the equation, making it equal to zero!\n\nFor ax² + bx + c = 0, roots are:\n\nx = (–b ± √D) / 2a\n\nThink of roots as the x-intercepts where the parabola crosses the x-axis! 📈"
+      }
+    }
+  },
+
+  "records": {
+    "attendance": {
+      "percentage": 91,
+      "present_days": 145,
+      "total_days": 159,
+      "absent_days": 14
+    },
+    "marks": [
+      { "subject": "Math",    "marks": 88, "max": 100, "grade": "A",  "color": "blue"   },
+      { "subject": "Science", "marks": 76, "max": 100, "grade": "B+", "color": "emerald"},
+      { "subject": "English", "marks": 92, "max": 100, "grade": "A+", "color": "purple" },
+      { "subject": "Social",  "marks": 68, "max": 100, "grade": "B",  "color": "amber"  },
+      { "subject": "Hindi",   "marks": 95, "max": 100, "grade": "A+", "color": "rose"   },
+      { "subject": "CS",      "marks": 82, "max": 100, "grade": "A",  "color": "violet" }
+    ],
+    "leaves": {
+      "total": 20,
+      "used": 14,
+      "remaining": 6
+    },
+    "notifications": [
+      { "icon": "fa-bell",         "title": "Math Test Tomorrow",           "desc": "Chapter 5 – Quadratic Equations at 9 AM", "time": "2h ago",      "color": "blue",   "unread": true  },
+      { "icon": "fa-file-alt",     "title": "Assignment Submitted",         "desc": "Science lab report accepted by teacher",   "time": "Yesterday",   "color": "green",  "unread": false },
+      { "icon": "fa-trophy",       "title": "New Achievement Unlocked!",    "desc": "You earned the 'Quick Learner' badge",      "time": "2 days ago",  "color": "yellow", "unread": true  },
+      { "icon": "fa-video",        "title": "Live Class Starting Soon",     "desc": "English – The Letter Writer at 2 PM",      "time": "3 days ago",  "color": "purple", "unread": false }
+    ],
+    "next_class": {
+      "subject": "Science",
+      "topic": "Chemical Reactions & Equations",
+      "teacher": "Mrs. Priya Mehta",
+      "time": "Today, 11:00 AM",
+      "room": "Room 204",
+      "icon": "fa-flask",
+      "color": "emerald"
+    },
+    "performance_summary": {
+      "overall_percentage": 83.5,
+      "class_rank": 4,
+      "total_students": 42,
+      "improvement": "+5.2%"
+    }
+  },
+
+  "profile": {
+    "details": [
+      { "icon": "fa-id-card",          "label": "Roll Number",  "value": "2024-10-042"             },
+      { "icon": "fa-school",           "label": "School",       "value": "Delhi Public School, Hyd"},
+      { "icon": "fa-graduation-cap",   "label": "Class",        "value": "Class 10 – Section A"    },
+      { "icon": "fa-phone",            "label": "Phone",        "value": "+91 98765 43210"         },
+      { "icon": "fa-envelope",         "label": "Email",        "value": "arjun.sharma@dps.edu"    },
+      { "icon": "fa-cake-candles",     "label": "Date of Birth","value": "15 March 2009"           },
+      { "icon": "fa-calendar-plus",    "label": "Joined",       "value": "June 2023"               }
+    ],
+    "settings": [
+      { "icon": "fa-bell",          "label": "Notifications",    "toggle": true,  "on": true  },
+      { "icon": "fa-moon",          "label": "Dark Mode",        "toggle": true,  "on": false },
+      { "icon": "fa-volume-high",   "label": "Sound Effects",    "toggle": true,  "on": true  },
+      { "icon": "fa-language",      "label": "Language",         "toggle": false, "value": "English" },
+      { "icon": "fa-shield-halved", "label": "Privacy",          "toggle": false, "value": "Manage" },
+      { "icon": "fa-circle-info",   "label": "App Version",      "toggle": false, "value": "v2.0.1" }
+    ]
+  }
+}
